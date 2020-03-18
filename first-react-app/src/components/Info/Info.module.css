@@ -1,0 +1,13 @@
+.content {
+    background-color: thistle;
+}
+
+.content img {
+    max-height: 200px;
+    padding: 10px;
+}
+
+ .comp {
+     padding: 10px;
+     background-color: teal;
+ }
