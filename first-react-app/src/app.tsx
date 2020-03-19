@@ -1,15 +1,11 @@
 import React from 'react'
-import './App.css'
-import Header from './components/Header/Header'
-import Navbar from './components/Navbar/Navbar'
-import Info from './components/Info/Info'
+import MyForm from './MyForm'
 
-function App() {
+const App: React.FC = () => {
     return (
-        <div className='app-wrapper'>
-            <Header />
-            <Navbar />
-            <Info />
+        <div>
+            <h1>Hello, React</h1>
+            <MyForm onSubmit={JSON.stringify} />
         </div>
     )
 }
